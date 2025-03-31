@@ -15,4 +15,15 @@ console.log(nome1);
 let nome2 = null;
 console.log(nome2);
 
+//tipos de variáveis
+let exemplo1 = 10;
+console.log(typeof exemplo1)
 
+let exeplo2 = energia
+console.log(typeof exemplo2)
+
+let exemplo3 = {}
+console log(typeof exemplo3)
+
+let exemplo4 = {}
+console.log(typeof exemplo4)
