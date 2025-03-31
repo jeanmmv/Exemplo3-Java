@@ -23,7 +23,7 @@ let exeplo2 = energia
 console.log(typeof exemplo2)
 
 let exemplo3 = {}
-console log(typeof exemplo3)
+console.log(typeof exemplo3)
 
 let exemplo4 = {}
 console.log(typeof exemplo4)
