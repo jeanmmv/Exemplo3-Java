@@ -51,26 +51,73 @@
 // let info = "processamento de ponta";
 // console.log(info.slice(8,10));
 
-// OPERADORES ARITMETICOS
+// // OPERADORES ARITMETICOS
 
-const num1 = 10;
-const num2 = 20;
+// const num1 = 10;
+// const num2 = 20;
 
-console.log(num1+num2);
-console.log(num1-num2);
-console.log(num1*num2);
-console.log(num1/num2);
+// console.log(num1+num2);
+// console.log(num1-num2);
+// console.log(num1*num2);
+// console.log(num1/num2);
 
-//OPERADORES LÓGICOS
+// //OPERADORES LÓGICOS
 
-const num3 = 20;
-const num4 = "20";
+// const num3 = 20;
+// const num4 = "20";
 
-console.log(num3 < num4);
-console.log(num3 < num4 && num4 < num3); //&& - Significa condição de "e"
-console.log(num3 < num4 || num4 < num3); //|| - significa condição de "ou"
+// console.log(num3 < num4);
+// console.log(num3 < num4 && num4 < num3); //&& - Significa condição de "e"
+// console.log(num3 < num4 || num4 < num3); //|| - significa condição de "ou"
 
-//OPERADORES DE COMPARAÇÃO
+// //OPERADORES DE COMPARAÇÃO
 
-console.log(num3 == num4);
-console.log(num3 === num4); //Compara variaveis de mesmo tipo
+// console.log(num3 == num4);
+// console.log(num3 === num4); //Compara variaveis de mesmo tipo
+
+//if
+let num="10";
+
+if (num=10){
+    console.log("É verdadeiro!")
+}
+
+//if / else
+
+let usuario="teste";
+if(usuario = "teste"){
+    console.log("Usuário correto")
+} else {
+    console.log("Usuário incorreto")
+}
+
+//if encadeado / aninhado
+
+let idade = 15
+if(idade < 15){
+    console.log("Menor de idade")
+} else if(idade > 15 && idade < 18){
+ console.log("Não é maior de idade, porém é permitido a entrada sem o consumo de itens alcóolicos")
+} else{
+    console.log("Pode entrar sem restrições")
+}
+
+// switch
+
+let time = "São paulo"
+
+switch (time){
+    case "São paulo":
+        console.log("Melhor time")
+        break;
+    case "Corinthians":
+        console.log("Acesso negado!")
+        break;
+    case "Palmeiras":
+        console.log("Não tem Mundial")
+        break;
+    default:
+        console.log ("Nenhuma das opções")
+}
+
+// ternario
